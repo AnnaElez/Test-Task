@@ -1,0 +1,32 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+    margin: auto;
+    border-radius: 8px;
+    background-color: #f0f8ffde;
+    transition: 0.25s;
+}
+
+.containerDark {
+    background-color: #171c20de;
+}
+
+.containerDark th,
+.containerDark td {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.spaceAround {
+    margin: 100px 0;
+}
+
+.container tr {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+}
+
+.container table {
+    width: 100%;
+}

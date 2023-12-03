@@ -1,0 +1,28 @@
+.bigField {
+    width: 40%;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.smallField {
+    width: 20%;
+}
+
+.tableHeader {
+    text-align: left;
+    border-radius: 8px 8px 0 0;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 8px;
+    transition: 0.25s;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.tableHeaderDark {
+    background-color: #171c20f2;
+}
+
+.tableContent tr {
+    border-top: 2px solid rgba(255, 255, 255, 0.6);
+}
